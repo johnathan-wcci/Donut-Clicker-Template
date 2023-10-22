@@ -43,6 +43,13 @@ You must create a website that uses button clicks to create donuts. The donuts c
 
 ## Index.Html Setup
 
+### Create a Header section
+
+- Contains a navigation menu that when clicked will expand sections about:
+  - Fred the Baker Baking Company
+  - The inspiration for this game, Cookie Clicker
+  - Your contact info
+
 ### Create a Main section that contains
 
 - A section that handles a click
@@ -65,6 +72,11 @@ You must create a website that uses button clicks to create donuts. The donuts c
 - Increases Auto Clicker cost with each purchase of an Auto Clicker
 - Activates the Auto Clicker by applying clicks every second based on the Auto Clicker count
 - Resets the game state. This action should reset the game to zero donuts and zero Auto Clickers
+
+## Additional Requirements
+
+- Use semantic html and BEM when writing your html so that in the future we have a solid base to expand upon.
+- Donuts are usually round, but the way in which you round your donut calculations is up to you!
 
 ## Iterations
 
@@ -137,6 +149,24 @@ This iteration will prepare the html document for the game. Open the index.html 
 
 - Create an section of elements that include a purchase button and a count of Auto Clickers.
 
+### FEATURE 4 : Create a header with a link to a drop down element with information about the Company
+
+As the marketing director, I want the customers to be able to find out more information about Fred the Baker Baking Company, so that they will buy more stuff from us.
+
+- Create a header and add a link that will make company info pop up for the user.
+
+### FEATURE 5 : Create a header with a link to the Inspiration of our game
+
+As the game designer, I want to give gamers a reference to our inspiration, the original Cookie Clicker game, so that the legal department will stop complaining that we stole the idea.
+
+- Create another link that will open a new tab with Cookie Clicker's address.
+
+### FEATURE 6 : Create a header with a link to a drop down element with information about the Developer
+
+As the developer, I want credit for writing this application, so that I can get a job.
+
+- Create a modal element that is centered over the application and has a quick bio link about yourself and links to your portfolio and GitHub.com account
+
 ----
 
 ## Iteration 3
@@ -179,3 +209,35 @@ This iteration is for you to complete final project requirements.
 > As a user, I want to be able to reset my game, so that my coworkers won't know how much time I wasted on clicking a button.
 
 - Have a way to stay on the same page, but reset the state of the game.
+
+## Grading Rubric
+
+Your grading will be based on:
+
+- Working Software
+- Clean Code
+- Version Control and GitHub
+
+### Working Software
+
+In order to receive a PASSING grade, working software must consist of an application that runs without error and meets all of the Required Features listed above.
+
+### Clean Code
+
+Clean code is readable, easy to understand, formatted, and not littered with commented out code.
+
+In order to receive a PASSING grade, all of the following principles must be met:
+
+- Use of ES6 features
+- Follows OOP pillars and SOLID principles
+  - use of encapsulation of variables in the game engine.
+  - use of variables and functions to abstract away details.
+- Organized and Formatted code
+  - Use indentations, new lines, brackets, and empty lines to create code that is easy to read and understand.
+  - Use Auto-formatting tools
+  - Code is in separate files for the game engine and the DOM API wiring.
+- Good naming convention
+  - Variable, class, and method names should inform the reader of its purpose.
+  - Variable, class, and method names should use proper casing.
+- Comments are rare and only when absolutely necessary
+  - If you use descriptive method and variable names, your reliance on comments should be minimal. In addition, you should never leave blocks of commented out code in your committed code.
